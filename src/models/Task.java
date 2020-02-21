@@ -51,7 +51,7 @@ import javax.persistence.Table;
             this.created_at = created_at;
         }
 
-        public Timestamp updated_at() {
+        public Timestamp getUpdated_at() {
             return updated_at;
         }
 
